@@ -14,10 +14,10 @@ For this memory game it would looks something like:
 
 To be specific, the game follows the flow:
 1. Start the game at round 1
-2. Display the message ¡°Round: ¡° followed by the round number in the center of the screen
+2. Display the message "Round: " followed by the round number in the center of the screen
 3. Generate a random string of length equal to the current round number
 4. Display the random string one letter at a time
 5. Wait for the player to type in a string the same length as the target string
 6. Check to see if the player got it correct
 	If they got it correct, repeat from step 2 after increasing the round by 1
-	If they got it wrong, end the game and display the message ¡°Game Over! You made it to round:¡± followed by the round number they failed in the center of the screen
+	If they got it wrong, end the game and display the message "Game Over! You made it to round:" followed by the round number they failed in the center of the screen
